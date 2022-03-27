@@ -1,4 +1,3 @@
-@import "~antd/dist/antd.css";
 :root {
   --text-primary: #000;
   --bgPrimary: #fff;
@@ -76,13 +75,13 @@ a:hover {
 
 @media screen and (max-width: 1300px) {
   .main {
-    margin-left: 50px;
+    margin-left: 0px;
   }
 }
 
 @media screen and (max-width: 1170px) {
   .main {
-    margin-left: 50px;
+    margin-left: 0px;
   }
 }
 
