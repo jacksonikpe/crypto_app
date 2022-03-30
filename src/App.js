@@ -8,7 +8,6 @@ import CryptoDetails from "./components/CryptoDetails";
 import News from "./components/News";
 import Navbar from "./components/Navbar";
 import "./App.css";
-import "antd/dist/antd.css";
 
 const App = () => {
   return (
