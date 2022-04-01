@@ -109,11 +109,11 @@ a:hover {
   }
 
   .nav-container {
-    height: 8vh;
+    height: 15vh;
     position: fixed;
     width: 100%;
     z-index: 100;
-    background-color: var(--bgSecondary);
+    background-color: rgb(0, 21, 41);
   }
 
   .menu-control-container {
