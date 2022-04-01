@@ -131,12 +131,12 @@ const CryptoDetails = () => {
       </Select>
       <LineChart
         coinHistory={coinHistory}
-        currentPrice={millify(cryptoDetails.price)}
-        coinName={cryptoDetails.name}
+        currentPrice={millify(cryptoDetails?.price)}
+        coinName={cryptoDetails?.name}
       />
       <Col className="stats-container">
         <Col className="coin-value-statistics-heading">
-          <Title level={3} className="stats">
+          <Title level={3} className="coin-details-heading">
             {cryptoDetails.name} Value Statistics
           </Title>
           <p>An overview showing the stats of {cryptoDetails.name}</p>
@@ -151,7 +151,7 @@ const CryptoDetails = () => {
           ))}
         </Col>
         <Col className="other-stats-info">
-          <Title level={3} className="stats">
+          <Title level={3} className="coin-details-heading">
             <Col className="coin-value-statistics-heading">
               Other Statistics
             </Col>
